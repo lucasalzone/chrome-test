@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Chrome Test Extension",
+  "description": "This project is intended to get source-code of html page for make test.",
+  "version": "1.0",
+  
+  "browser_action": {
+    "default_icon": "test.png",
+    "default_popup": "popup.html",
+    "default_title": "Test attivo"
+  },
+  
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "<all_urls>"
+  ]
+  
+}
